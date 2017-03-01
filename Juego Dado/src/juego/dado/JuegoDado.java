@@ -16,6 +16,11 @@ public class JuegoDado {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Jugador juego = new Jugador();
+        
+        juego.setApuesta(1000);
+        System.out.println(juego.Apostar());
+        
     }
     
 }
