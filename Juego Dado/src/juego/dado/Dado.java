@@ -4,18 +4,16 @@
  * and open the template in the editor.
  */
 package juego.dado;
-import java.util.Random;
+    import java.util.Random;
 
 /**
  *
- * @author labing506
+ * @author Carlos López
  */
 public class Dado {
-    
+    Random dado = new Random();
     
     public int Lanzar(){
-        Random dado = new Random();
         return dado.nextInt(6)+1;
     }
-    
 }
